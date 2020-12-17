@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+body {
+    background: linear-gradient(180deg, #8D7CD0 0%, #FFFFFF 100%);
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Roboto";
+    color: white;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 12vh;
+    width: 100%;
+    text-align: center;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 90%;
+}
+
+.app h1 {
+    margin: 0;
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-size: 6vh;
+    
+}
+
+.content {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content-cell {
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.content-cell img {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
